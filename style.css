@@ -19,6 +19,8 @@ body {
   margin: 0 auto;
   border-radius: 10px;
   border: 4px rgb(255, 255, 255) solid;
+  border-bottom: 4px rgb(255, 0, 0) solid;
+  border-top: 4px rgb(255, 0, 0) solid;
   box-shadow: 2px 5px 30px gray;
   overflow: hidden;
 }
@@ -106,4 +108,6 @@ body {
   display: none;
 }
 
-
+audio {
+  visibility: hidden;
+}

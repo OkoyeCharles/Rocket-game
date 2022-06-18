@@ -63,6 +63,9 @@ function checkKey(e) {
   else if (e.keyCode == '40' && player.offsetTop < 350) {
     player.style.top = '360px'
   }
+  else if (e.keyCode == '13') {
+    location.reload()
+  }
 }
 
 setInterval(() => {
