@@ -10,6 +10,7 @@ let score = document.getElementById('score')
 let gameover = document.getElementById('game-over')
 let gameoverscore = document.getElementById('game-over-score')
 let gameoverhighscore = document.getElementById('game-over-high-score')
+let sounds = document.getElementById('sounds')
 let scorenum = 0
 let getScore = () => {
   
@@ -78,6 +79,7 @@ setInterval(() => {
     gameoverscore.innerHTML = `YOU SCORED ${gameoverscorenum}`
     gameoverhighscore.innerHTML = `HIGH SCORE: ${parseInt(localStorage.getItem('high_score'))}`
     setHighScore(gameoverscorenum)
+    sounds.firstChild.src ="./images/negative_beeps-6008.mp3"
   }
 }, 10)
 
@@ -91,6 +93,7 @@ setInterval(() => {
     gameoverscore.innerHTML = `YOU SCORED ${gameoverscorenum}`
     gameoverhighscore.innerHTML = `HIGH SCORE: ${parseInt(localStorage.getItem('high_score'))}`
     setHighScore(gameoverscorenum)
+    sounds.firstChild.src ="./images/negative_beeps-6008.mp3"
   }
 }, 10)
 setInterval(() => {
@@ -103,6 +106,7 @@ setInterval(() => {
     gameoverscore.innerHTML = `YOU SCORED ${gameoverscorenum}`
     gameoverhighscore.innerHTML = `HIGH SCORE: ${parseInt(localStorage.getItem('high_score'))}`
     setHighScore(gameoverscorenum)
+    sounds.firstChild.src ="./images/negative_beeps-6008.mp3"
   }
 }, 10)
 
