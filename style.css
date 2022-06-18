@@ -13,7 +13,8 @@ body {
 
 #canvas {
   position: relative;
-  background: rgb(26, 27, 81);
+  background-image: url(./images/background.jpg);
+  background-size: cover;
   height: 410px;
   width: 600px;
   margin: 0 auto;
@@ -96,7 +97,7 @@ body {
   height: 100%;
   top: 0;
   bottom: 0;
-  background: rgb(26, 27, 81);
+  background: linear-gradient(rgb(26, 27, 81), rgb(53, 55, 198));
   color: yellow;
 }
 
